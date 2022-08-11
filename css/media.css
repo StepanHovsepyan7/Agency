@@ -1,0 +1,100 @@
+@media only screen and (max-width: 1607px){
+    .navbar-collapse {
+        margin-left: 43% !important;
+    }
+}
+@media only screen and (max-width: 1400px){
+    .navContent {
+        padding-top: 20% !important;
+    }
+    .navbar-collapse {
+        margin-left: 35% !important;
+    }
+}
+@media only screen and (max-width: 1170px){
+    .navContent {
+        padding-top: 25% !important;
+    }
+    .navbar-collapse {
+        margin-left: 25% !important;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .navbar-collapse {
+        margin-left: 18% !important;
+    }
+    .navContent h1 {
+        font-size: 50px;
+    }
+    .navContent h5 {
+        font-size: 30px;
+    }
+    .navContent button {
+        height: 60px;
+        width: 150px;
+    }
+}
+@media only screen and (max-width: 990px){
+    .navContent {
+        padding-top: 30% !important;
+    }
+    .navigationn{
+        background-color: #212529 !important;
+        margin-top: 0 !important;
+    }
+    .navbar-collapse {
+        margin-left: 10% !important;
+    }
+    
+}
+@media only screen and (max-width: 850px){
+    .parentServices2 {
+        display: block !important;
+    }
+    .servicesDiv2 {
+        margin-left: 0px !important;
+        margin-top: 30px;
+    }
+    .parentServices p {
+        font-size: 22px;
+    }
+}
+/* @media only screen and (max-width: 750px){
+    .navContent {
+        padding-top: 36% !important;
+    }
+} */
+@media only screen and (max-width: 750px){
+    .navContent {
+        padding-top: 45% !important;
+    }
+}
+@media only screen and (max-width: 437px){
+    .navContent h1 {
+        font-size: 40px;
+    }
+    .navContent h5 {
+        font-size: 20px;
+    }
+    .navContent button {
+        height: 55px;
+        width: 130px;
+    }
+    header{
+        height: 600px;
+    }
+    .navContent {
+        padding-top: 55% !important;
+    }
+}
+@media only screen and (max-width: 350px){
+    .navContent h1 {
+        font-size: 35px;
+    }
+    header{
+        height: 450px;
+    }
+    .navContent{
+        padding-top: 40% !important;
+    }
+}

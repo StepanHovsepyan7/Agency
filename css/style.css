@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    background-color: #212529 !important;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #212529 !important;
+    border-radius: 10px;
+}
+   
+::-webkit-scrollbar-thumb {
+    background-color:#ffc800; 
+    border-radius: 10px;
+} 
+
+header{
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+}
+.navigationn{
+    position: fixed;
+    width: 100%;
+}
+.navbar-collapse{
+    margin-left: 50%;  
+}
+.navbar-collapse a{
+    transition: 0.5s !important;
+}
+.navbar-collapse a:hover{
+    color: #ffc800 !important;
+}
+.navbar-brand{
+    color: #ffc800 !important;
+    font-size: 30px;
+    margin-left: 10%;
+}
+.nav-item a{
+    color: white !important;
+    font-family: 'Raleway', sans-serif; 
+}
+.navbar-brand{
+    font-family: 'Pacifico', cursive; 
+}
+.navContent{
+    justify-content: center;
+    text-align: center;
+    padding-top: 17%;
+}
+.navContent h1{
+    color: white;
+    font-size: 70px;
+    margin-top: 25px;
+    font-family: 'Raleway', sans-serif; 
+}
+.navContent h5{
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+}
+.navContent button{
+    color: white;
+    background-color: #ffc800;
+    border: 1px solid #ffc800;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 65px;
+    width: 200px;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+.navContent button:hover{
+    background-color: #dbb013;
+    border: 1px solid #dbb013;
+}
+
+
+/* Services */
+
+.parentServices{
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.parentServices2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.parentServices2 h3{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.parentServices p{
+    color: #6c757d;
+    font-style: italic;
+}
+.parentServices h1{
+    font-weight: bold;
+}
+.servicesDiv1{
+    justify-content: center;
+    text-align: center;
+}
+.fa-cart-shopping{
+    font-size: 80px;
+    color: #ffc800;
+}
+.fa-display{
+    font-size: 80px;
+    color: #ffc800;
+}
+.fa-lock{
+    font-size: 80px;
+    color: #ffc800;
+}
+.servicesDiv2{
+    margin-left: 50px;
+}
