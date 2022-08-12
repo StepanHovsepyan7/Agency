@@ -11,6 +11,86 @@
         margin-left: 35% !important;
     }
 }
+@media only screen and (max-width: 1300px){
+    .portfolioDiv2 img {
+        height: 250px;
+    }
+}
+@media only screen and (max-width: 1040px){
+    .portfolioDiv2 img {
+        height: 210px;
+    }
+    .divPortfolio {
+        background-color: rgba(60, 199, 143, 0.06);
+        height: 1000px;
+    }
+    .modalParent3 {
+        height: 650px;
+        width: 800px;
+        margin-top: 39% !important;
+    }
+}
+@media only screen and (max-width: 880px){
+    .portfolioDiv2 img {
+        height: 180px;
+    }
+}
+@media only screen and (max-width: 750px){
+    .imgDivs {
+        /* height: 100px !important;
+        margin-left: 135px !important;
+        width: 63% !important; */
+        background: transparent !important;
+    }
+    .portfolioDiv2 img {
+        height: 316px;
+        width: 62%;
+        
+    }
+    .divPortfolio {
+        background-color: rgba(60, 199, 143, 0.06);
+        height: 2810px;
+    }
+    .portfolioDiv2{
+        display: block !important;
+        justify-content: space-around !important;
+
+    }
+}
+@media only screen and (max-width: 600px){
+    .portfolioDiv2 img {
+        height: 316px;
+        width: 70%;
+    }
+   
+}
+@media only screen and (max-width: 940px){
+    .modalParent{
+        width: 740px !important;
+        margin-top: 45% !important;
+    }
+    .modalParent2{
+        width: 740px !important;
+        margin-top: 45% !important;
+    }
+    .modalParent3{
+        width: 740px !important;
+        margin-top: 45% !important;
+    }
+    .modalParent4{
+        width: 740px !important;
+        margin-top: 45% !important;
+    }
+    .modalParent5{
+        width: 740px !important;
+        margin-top: 45% !important;
+    }
+    .modalParent6{
+        width: 740px !important;
+        margin-top: 45% !important;
+    }
+}
+
 @media only screen and (max-width: 1170px){
     .navContent {
         padding-top: 25% !important;
@@ -59,16 +139,16 @@
         font-size: 22px;
     }
 }
-/* @media only screen and (max-width: 750px){
-    .navContent {
-        padding-top: 36% !important;
-    }
-} */
+
 @media only screen and (max-width: 750px){
     .navContent {
         padding-top: 45% !important;
     }
 }
+
+
+
+
 @media only screen and (max-width: 437px){
     .navContent h1 {
         font-size: 40px;
@@ -86,6 +166,10 @@
     .navContent {
         padding-top: 55% !important;
     }
+    .portfolioDiv2 img {
+        height: 316px;
+        width: 80% !important;
+    }
 }
 @media only screen and (max-width: 350px){
     .navContent h1 {
@@ -96,5 +180,9 @@
     }
     .navContent{
         padding-top: 40% !important;
+    }
+    .portfolioDiv2 img {
+        height: 316px;
+        width: 90% !important;
     }
 }
