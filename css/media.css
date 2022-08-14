@@ -11,6 +11,117 @@
         margin-left: 35% !important;
     }
 }
+@media only screen and (max-width: 1180px){
+    .line {
+        height: 2px;
+        width: 147px;
+        margin-top: 66px;
+    }
+    .line2 {
+        height: 2px;
+        width: 112px;
+        margin-top: 39px;
+    }
+}
+@media only screen and (max-width: 830px){
+    .parentAbout2 {
+        margin-right: 15%;
+    }
+    .line {
+        width: 112px;
+        margin-top: 37px;
+    }
+    .line2 {
+        height: 2px;
+        width: 124px;
+        margin-top: 49px;
+    }
+}
+
+@media only screen and (max-width: 830px){
+    .div2 p {
+        margin-left: 0px;
+    }
+    .line {
+        width: 88px;
+        margin-top: 10px;
+    }
+    .line2 {
+        height: 2px;
+        width: 80px;
+        margin-top: 15px;
+    }
+}
+@media only screen and (max-width: 760px){
+    .line {
+        width: 88px;
+        margin-top: 10px;
+    }
+    .line2 {
+        height: 2px;
+        width: 87px;
+        margin-top: 20px;
+    }
+    .div3 p {
+        font-size: 13px;
+    }
+    .div2 p {
+        font-size: 13px;
+        margin-left: 0px;
+    }
+    .parentAbout3 img {
+        width: 140px;
+    }
+    .parentAbout2 img {
+        width: 140px;
+    }
+}
+@media only screen and (max-width: 690px){
+    .div3 p {
+        font-size: 11px;
+    }
+    .div2 p {
+        font-size: 11px;
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 645px){
+    .parentAbout3 img {
+        width: 150px;
+    }
+    .parentAbout2 img {
+        width: 150px;
+    }
+    .parentAbout2 img {
+        width: 150px;
+    }
+    .div2 p {
+        font-size: 10px;
+    }
+    .div2 h3{
+        font-size: 22px;
+    }
+    .div3 p {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .parentAbout3 img {
+        width: 120px;
+    }
+    .parentAbout2 img {
+        width: 120px;
+    }
+}
+@media only screen and (max-width: 445px){
+    .div2 h3 {
+        font-size: 16px;
+    }
+    .line {
+        width: 104px;
+        margin-top: 44px;
+    }
+}
 @media only screen and (max-width: 1300px){
     .portfolioDiv2 img {
         height: 250px;
@@ -58,11 +169,43 @@
     }
 }
 @media only screen and (max-width: 600px){
-    .portfolioDiv2 img {
-        height: 316px;
-        width: 70%;
+    .parentAbout2 img {
+        width: 120px;
     }
-   
+   .parentAbout3 img {
+    width: 120px;
+    }
+}
+@media only screen and (max-width: 560px){
+    .parentAbout3 {
+        margin-left: 0%;
+    }
+    .parentAbout2 {
+        margin-right: 0%;
+    }
+    .div3 h3 {
+        font-size: 18px;
+    }
+    .div2 h3 {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 413px){
+    .parentAbout3 img {
+        width: 100px;
+    }
+    .parentAbout2 img {
+        width: 100px;
+    }
+    .div3 h3 {
+        font-size: 16px;
+    }
+    .div2 h3 {
+        font-size: 16px;
+    }
+    .line2{
+        width: 83px;
+    }
 }
 @media only screen and (max-width: 940px){
     .modalParent{
@@ -167,8 +310,12 @@
         padding-top: 55% !important;
     }
     .portfolioDiv2 img {
-        height: 316px;
+        height: 270px !important;
         width: 80% !important;
+    }
+    .divPortfolio {
+        background-color: rgba(60, 199, 143, 0.06);
+        height: 2544px;
     }
 }
 @media only screen and (max-width: 350px){
@@ -184,5 +331,8 @@
     .portfolioDiv2 img {
         height: 316px;
         width: 90% !important;
+    }
+    .navbar-brand{
+        margin-left: 0%;
     }
 }
