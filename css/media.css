@@ -10,6 +10,12 @@
     .navbar-collapse {
         margin-left: 35% !important;
     }
+    input {
+        width: 60%;
+    }
+    textarea {
+        width: 60%;
+    }
 }
 @media only screen and (max-width: 1180px){
     .line {
@@ -145,6 +151,12 @@
     .portfolioDiv2 img {
         height: 180px;
     }
+    .parnetTeam2 {
+        display:  block;
+    }
+    .parentTeam {
+        height: 1300px;
+    }
 }
 @media only screen and (max-width: 750px){
     .imgDivs {
@@ -167,6 +179,9 @@
         justify-content: space-around !important;
 
     }
+    .parentTeam p {
+        font-size: 13px !important; 
+    }
 }
 @media only screen and (max-width: 600px){
     .parentAbout2 img {
@@ -174,6 +189,12 @@
     }
    .parentAbout3 img {
     width: 120px;
+    }
+    textarea {
+        width: 100%;
+    }
+    input{
+        width: 100%;
     }
 }
 @media only screen and (max-width: 560px){
@@ -256,6 +277,12 @@
         height: 60px;
         width: 150px;
     }
+    input {
+        width: 70%;
+    }
+    textarea {
+        width: 70%;
+    }
 }
 @media only screen and (max-width: 990px){
     .navContent {
@@ -274,12 +301,21 @@
     .parentServices2 {
         display: block !important;
     }
+    .fa-twitter{
+        margin-bottom: 6px;
+    }
     .servicesDiv2 {
         margin-left: 0px !important;
         margin-top: 30px;
     }
     .parentServices p {
-        font-size: 22px;
+        font-size: 18px;
+    }
+    input {
+        width: 90%;
+    }
+    textarea {
+        width: 90%;
     }
 }
 
@@ -335,4 +371,5 @@
     .navbar-brand{
         margin-left: 0%;
     }
+    
 }
