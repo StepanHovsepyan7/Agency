@@ -3,10 +3,12 @@
 *{
     margin: 0;
     padding: 0;
+    transition: .5s;
 }
 body{
     margin: 0;
     padding: 0;
+    /* background-color: #212529; */
 }
 html{
     scroll-behavior: smooth;
@@ -175,7 +177,7 @@ header{
 .imgDivs{
     height: 100px !important;
     width: 100% !important;
-    background-color: white !important;
+    background-color: white;
 }
 .imgDivs h4{
     font-weight: bold;
@@ -639,7 +641,6 @@ header{
     width: 100%;
     height: 850px;
     background-color: #212529;
-    margin-top: 100px;
 }
 .parentFooter2{
     justify-content: center;
@@ -690,3 +691,18 @@ textarea{
     border: 1px groove #dbb013;
 }
 
+
+
+/* Dark  Mode*/
+
+.fa-moon{
+    font-size: 20px;
+    color: white;
+    transition: 0.5s;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.fa-moon:hover{
+    cursor: pointer;
+    color: #ffc800;
+}
