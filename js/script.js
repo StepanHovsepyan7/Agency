@@ -1,23 +1,20 @@
 'use strict';
 
 $(function(){
-    $(window).bind('scroll', function() {
-        var navHeight = $( window ).height() - 860;
-             if ($(window).scrollTop() > navHeight) {
-                  $('.navigationn ').addClass('fixed');
-                  $('.navigationn ').css({
-                  backgroundColor: '#212529',
-                 })
-             }
-              else {
-                  $('.navigationn ').removeClass('fixed');
-                  $('.navigationn ').css({
-                    backgroundColor: 'transparent',
-                })
-             }
 
-     });
+    $(window).scroll(function() {
 
+        if($(window).scrollTop() >= 1) {
+            $(".navigationn").css({
+                backgroundColor: "#212529",
+            })
+        } else {
+            $(".navigationn").css({
+                backgroundColor: "transparent",
+            })
+        }
+
+    })
 
 
     let modBut = $('.modBut')
@@ -98,5 +95,20 @@ $(function(){
     })
 
     })
+
+    
+
+    if($(window).width() < 768) {
+
+        imigs.click(function() {
+
+            modalParent.css({
+                display: 'none',
+            })
+
+        })
+
+    }
+
 
 })

@@ -34,6 +34,8 @@ header{
     height: 800px;
 }
 .navigationn{
+    background-color: transparent;
+    transition: .3s;
     position: fixed;
     z-index: 99999999999;
     width: 100%;
