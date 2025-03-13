@@ -669,6 +669,7 @@ textarea{
     padding: 1.25rem;
     margin-top: 50px;
     border-radius: 5px;
+    resize: none;
 }
 .butt{
     justify-content: center;
